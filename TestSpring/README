@@ -1,0 +1,12 @@
+1. mvn jrebel:generate
+
+  Generates rebel.xml configuration file to src/main/resources
+
+2. One the maven project in your favorite IDE
+   In Eclipse: Import -> Maven project
+   In IntelliJ IDEA or NetBeans: open as Maven project
+
+3. Start the application container with -javaagent:/path/to/jrebel.jar
+   Or the IDE does it for you automatically.
+
+done.
